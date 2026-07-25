@@ -3,7 +3,7 @@ public:
     int maxSubArray(vector<int>& nums) {
       int sum=nums[0];
       int last=nums[0];
-      if(nums.size()==1) return nums[0];
+      
       for(int i=1;i<nums.size();i++){
         int v1=last+nums[i];
         int v2=nums[i];
